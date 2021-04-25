@@ -12,5 +12,5 @@ while choice != "n":
             pwd = random.choice(pwd_chars)
             password = password + pwd
         print("Your password is:", password)
-    choice = input("Do you want to continue?(Y/N)")
+    choice = input("Do you want to continue?(Y/N)\n")
     choice = choice.lower()
